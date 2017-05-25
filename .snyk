@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - favicons-webpack-plugin > favicons > node-rest-client > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - mocha > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - karma > socket.io > engine.io > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - karma > socket.io > socket.io-adapter > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - karma > socket.io > socket.io-client > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - karma > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - serve > send > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - json-server > compression > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - karma > socket.io > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - serve > micro-compress > compression > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - webpack-dev-server > compression > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - webpack-dev-server > serve-index > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - nightwatch > mocha-nightwatch > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - karma > socket.io > socket.io-parser > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - karma > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - karma > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
+    - serve > send > debug > ms:
+        patched: '2017-05-25T04:43:23.696Z'
